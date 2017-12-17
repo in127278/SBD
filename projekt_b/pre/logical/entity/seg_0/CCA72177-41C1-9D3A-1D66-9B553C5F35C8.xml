@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CCA72177-41C1-9D3A-1D66-9B553C5F35C8" name="NAPRAWA">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 10:24:17 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_NAPRAWY" id="0F7901AD-F33B-DB95-80A5-ED23AF82B65C">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 15:13:05 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA" id="7DB410B9-4FFE-04E1-6D32-F547FE18B5FE">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 16:04:25 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="F3D90040-8917-36B3-B060-0E59DE6B8814">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-20 13:48:50 UTC</createdTime>
+<generatorID>B5BD2567-9ECE-2FCE-D014-7640DC8DFC05</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>02989D7B-7328-0D72-8C54-A18BF3C1E30B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIM" id="FAB3569A-BB5D-4E61-06EC-F441D38633F6">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-17 11:27:03 UTC</createdTime>
+<generatorID>211B54AC-AED6-C0E8-808C-9ABB03104D77</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>B926B749-216A-C672-F34E-14C021FD8A41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="739DC28D-6014-815A-9C42-F89949D636A8" name="Naprawa PK">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 15:10:34 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F7901AD-F33B-DB95-80A5-ED23AF82B65C</attributeRef>
+<attributeRef>F3D90040-8917-36B3-B060-0E59DE6B8814</attributeRef>
+<attributeRef>FAB3569A-BB5D-4E61-06EC-F441D38633F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="517C83E3-C62C-024B-A176-745C00707E02" name="ZAMOWIENIE_CZESCI">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-15 11:16:14 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ZAMOWIENIA" id="7D01EA0D-B71E-E2D9-F5A8-05CBDE8D9FE5">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 15:05:25 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_ZAM" id="847D08F8-BCE6-AA60-3E56-BEFCA55A57C3">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 15:25:29 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_DOSTAWY" id="196FAB26-31A7-41F3-ABC2-B0858DCBCABB">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 15:25:36 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="73CF66D5-B3AC-07D9-D810-EF8AED6E345D">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-20 12:39:11 UTC</createdTime>
+<generatorID>C96CF0A0-F585-9A09-3CDE-6D98062A759F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>02989D7B-7328-0D72-8C54-A18BF3C1E30B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA_HURTOWNII" id="7A1DB166-E55B-1667-D46B-071DB496F7C2">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-17 11:30:24 UTC</createdTime>
+<generatorID>0E1D0954-7268-9ABD-9C8B-C6B96CF9DF27</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>37C47B5A-65C6-2142-3386-411069158E98</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48442A9F-F68E-5046-093B-0CA4B2BFAE4B" name="Zamówienie Części PK">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 15:04:35 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D01EA0D-B71E-E2D9-F5A8-05CBDE8D9FE5</attributeRef>
+<attributeRef>7A1DB166-E55B-1667-D46B-071DB496F7C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

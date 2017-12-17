@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C88003C-9D39-DAD0-B0DA-F44658E85693" name="KLIENT">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>8C924480-705D-628F-3145-CF6C554C1871</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESEL" id="022B7EDC-A291-D9A8-292D-780EC74F695F">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>02989D7B-7328-0D72-8C54-A18BF3C1E30B</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFF45F81-8DF7-E5C7-B0FB-6B5C980B99F8" referredColumn="1AE86104-C035-C754-5554-0E56FE3302D0"/>
+</associations>
+</Column>
+<Column name="NR_TEL" id="4EE7FD46-2E77-E7FB-B0C4-66A7CB6A5940">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>05E440DE-8920-4D6D-E56E-E0FEED369E9A</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIASTO" id="9C879A3B-B178-13C8-74F9-66D1C4B30C8A">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>8BC89D28-3C75-DEB6-BE61-DD98821271D1</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41364739-B1C0-1981-CBBA-B7BBA35DA361" name="KLIENT_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>F2357156-A8AB-EA94-3ACC-565842E7CCB8</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022B7EDC-A291-D9A8-292D-780EC74F695F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86994544-7642-5AA7-B2F7-0EBDF9AB1BE1" name="KLIENT_OSOBA_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>3E656AC0-AAA1-60E4-1E3D-32874CCCA49B</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="022B7EDC-A291-D9A8-292D-780EC74F695F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99DCB939-3EDF-AA77-34E5-9EC7CD74F0C5" containerWithKeyObject="D75B1D6D-D8CF-352A-D695-B7BF05898DF7" localFKIndex="A1CFBBDD-B23A-BF69-E339-3C3A2FE2AEBF" name="CZESCI_UZYTE_CZESCI_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>F27DE733-E713-6304-AE77-ED5CEE67C0A2</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<referredTableLongName>CZESCI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23E1FF1D-6626-5361-6B28-CD9E81167A01</referredTableID>
+<keyObject>26A645CA-C53E-A361-D20F-2CC5ACB9CD7F</keyObject>
+<referredKeyID>26A645CA-C53E-A361-D20F-2CC5ACB9CD7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CZESCI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

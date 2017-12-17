@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA82196F-9B08-411F-00AF-1F9C9598951D" name="UMOWA">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>58046D40-0A20-4E01-DF5A-47AD998EA79F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UMOWY" id="DA9184C4-9951-4695-EF2F-B8F48F7FB003">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>AB242F9C-7337-05F8-FF23-BB0788241C3F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="0FD8055C-BE35-D063-9A2B-61AEF7D46710">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>706ACF50-7501-ED1A-C325-0FF79F63163B</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENT_PESEL" id="3C8A75FC-04AB-1E6C-42BA-1A32A19D7385">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>6FE7E48C-95A3-B235-4608-1FD4AA341822</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98BB81E2-3165-F650-DBC8-29A56C26FF68" referredColumn="022B7EDC-A291-D9A8-292D-780EC74F695F"/>
+</associations>
+</Column>
+<Column name="Cena" id="A46A0EE0-2AB6-7104-3758-C0CC83E63609">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>34841D19-6957-6BF6-93E8-245516290704</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POJAZD_VIM" id="D42BEAA3-16EA-A320-BF3F-FF1BD605E9C0">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>6B63750F-EB47-C65C-4026-55A0CBF07AC2</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48AA1C43-9CE7-4647-3F5D-1135BAF4D2FA" referredColumn="80905964-0017-9C82-6EBF-4CD5B3A121E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B17A60A-1957-3822-3A6B-B57439AD873E" name="UMOWA_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>41B4AE9A-4B51-6EBC-889F-B4591726BADA</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA9184C4-9951-4695-EF2F-B8F48F7FB003"/>
+<colUsage columnID="D42BEAA3-16EA-A320-BF3F-FF1BD605E9C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA01116C-C5B4-F2D3-FC59-E1966B548787" name="UMOWA_POJAZD_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>23DF7889-6ADA-4ADA-15FB-E3E37CEF7554</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D42BEAA3-16EA-A320-BF3F-FF1BD605E9C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DADF115-7CF8-A004-D408-16982F44789D" name="UMOWA_KLIENT_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>63C3A03F-92FD-9003-11B9-85811B31F690</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C8A75FC-04AB-1E6C-42BA-1A32A19D7385"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

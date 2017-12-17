@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE5D343D-7E63-F4B6-B8F9-F4109D7A66BC" name="ZAMOWIENIE_CZESCI">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>517C83E3-C62C-024B-A176-745C00707E02</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAMOWIENIA" id="6AD7382E-DFD6-6A78-1E64-4A186C3A341D">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7D01EA0D-B71E-E2D9-F5A8-05CBDE8D9FE5</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ZAM" id="0DE64F2A-D45E-EA62-8F98-4A93A5E6704D">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>847D08F8-BCE6-AA60-3E56-BEFCA55A57C3</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DOSTAWY" id="111AD2CF-9EB6-1345-3B2E-764ED1A507FC">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>196FAB26-31A7-41F3-ABC2-B0858DCBCABB</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOWNIK_PESEL" id="C2B795E7-FA09-EBEC-95A2-26E260F355AC">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>73CF66D5-B3AC-07D9-D810-EF8AED6E345D</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1352A03-C628-82F1-F19E-2EC1DA8AA3C8" referredColumn="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A"/>
+</associations>
+</Column>
+<Column name="HURTOWNIA_NAZWA_HURTOWNII" id="918AB6CD-C1E4-915C-1B62-2C3D3535F62C">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7A1DB166-E55B-1667-D46B-071DB496F7C2</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11ABFDC5-C5B3-5F99-2922-585BFB461656" referredColumn="C1B931E5-0855-3B14-9FE9-D03A9610213C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1DBAD68-4D48-0E12-E5EF-05C1E6F8FA6D" name="ZAMOWIENIE_CZESCI_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>48442A9F-F68E-5046-093B-0CA4B2BFAE4B</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD7382E-DFD6-6A78-1E64-4A186C3A341D"/>
+<colUsage columnID="918AB6CD-C1E4-915C-1B62-2C3D3535F62C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BC2D159-ED10-9E80-C8B4-A35CC59AC125" name="ZAMOWIENIE_CZESCI_PRACOWNIK_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>C96CF0A0-F585-9A09-3CDE-6D98062A759F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B795E7-FA09-EBEC-95A2-26E260F355AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D495109E-0B87-A255-F2AA-BC8F6EC2B904" name="ZAMOWIENIE_CZESCI_HURTOWNIA_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>0E1D0954-7268-9ABD-9C8B-C6B96CF9DF27</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="918AB6CD-C1E4-915C-1B62-2C3D3535F62C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

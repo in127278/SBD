@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38BD3C20-2477-D01F-84F0-D46E4E9FDE9C" name="PRACOWNIK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7BB9E6D9-5C09-F468-263E-C549784269EC</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESEL" id="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>02989D7B-7328-0D72-8C54-A18BF3C1E30B</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36A09F9C-4DAA-52ED-616E-CE8291AD6987" referredColumn="1AE86104-C035-C754-5554-0E56FE3302D0"/>
+</associations>
+</Column>
+<Column name="Pensja" id="EA3A16C3-96AB-3AD2-4474-B2314ABF359F">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>D3398044-73AA-CE4C-08E0-7A78447770D0</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E23057D7-71D4-F49F-1C6A-2954067C5D57" name="PRACOWNIK_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>F2357156-A8AB-EA94-3ACC-565842E7CCB8</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68846233-7B67-B4EB-36AA-EFDB93A14BD4" name="PRACOWNIK_OSOBA_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>C866F049-5866-A5F6-FA78-A45CFAB44418</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

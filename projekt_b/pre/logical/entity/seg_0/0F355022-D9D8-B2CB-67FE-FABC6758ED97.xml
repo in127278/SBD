@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F355022-D9D8-B2CB-67FE-FABC6758ED97" name="PRZEGLAD">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-15 11:11:26 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRZEGLADU" id="D4B3CD68-562D-86EB-3830-324C745656E1">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-15 11:11:46 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA" id="52B12471-0EA7-3842-9447-F3310D40BEF8">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-15 11:12:07 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="E3EE2B4E-D715-0237-5BE6-306E994C2FCA">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-20 12:39:11 UTC</createdTime>
+<generatorID>3291F4DA-A3AA-0B85-75C1-2226685C24BC</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>02989D7B-7328-0D72-8C54-A18BF3C1E30B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIM" id="035F2FF5-97AF-5BDC-A4AA-7F3892DC0A21">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-17 11:27:03 UTC</createdTime>
+<generatorID>3F8EECDA-9438-947A-9E3D-EE5E4C6C8AB1</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>B926B749-216A-C672-F34E-14C021FD8A41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18108B43-22DD-DAD8-AC65-BE79E15C0889" name="Przegląd PK">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-15 11:13:40 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4B3CD68-562D-86EB-3830-324C745656E1</attributeRef>
+<attributeRef>035F2FF5-97AF-5BDC-A4AA-7F3892DC0A21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

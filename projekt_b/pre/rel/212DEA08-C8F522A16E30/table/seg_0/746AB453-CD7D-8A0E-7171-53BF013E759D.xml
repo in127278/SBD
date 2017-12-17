@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="746AB453-CD7D-8A0E-7171-53BF013E759D" name="NAPRAWA">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>CCA72177-41C1-9D3A-1D66-9B553C5F35C8</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NAPRAWY" id="92E3530B-E924-1E23-5C40-8F65E40E9E61">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>0F7901AD-F33B-DB95-80A5-ED23AF82B65C</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="EDD96814-4C18-C714-A226-89E89083218C">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7DB410B9-4FFE-04E1-6D32-F547FE18B5FE</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOWNIK_PESEL" id="F8DB875A-96AB-AB96-0FF5-1921A35D3BD9">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>F3D90040-8917-36B3-B060-0E59DE6B8814</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F617E778-E37B-8977-1897-2933F8BFE810" referredColumn="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A"/>
+</associations>
+</Column>
+<Column name="POJAZD_VIM" id="E82E5DCD-8392-1299-AA04-D11B5A603898">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>FAB3569A-BB5D-4E61-06EC-F441D38633F6</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="408F6A35-0BA2-721D-FE7D-319A0B09EC92" referredColumn="80905964-0017-9C82-6EBF-4CD5B3A121E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66D17FBD-6F60-73D8-94B5-9B96C6388509" name="NAPRAWA_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>739DC28D-6014-815A-9C42-F89949D636A8</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92E3530B-E924-1E23-5C40-8F65E40E9E61"/>
+<colUsage columnID="F8DB875A-96AB-AB96-0FF5-1921A35D3BD9"/>
+<colUsage columnID="E82E5DCD-8392-1299-AA04-D11B5A603898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D7A889B-38C5-60E0-A033-3F99329D2639" name="NAPRAWA_POJAZD_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>211B54AC-AED6-C0E8-808C-9ABB03104D77</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E82E5DCD-8392-1299-AA04-D11B5A603898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF75DB07-1356-C844-4F66-793055929746" name="NAPRAWA_PRACOWNIK_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>B5BD2567-9ECE-2FCE-D014-7640DC8DFC05</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8DB875A-96AB-AB96-0FF5-1921A35D3BD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

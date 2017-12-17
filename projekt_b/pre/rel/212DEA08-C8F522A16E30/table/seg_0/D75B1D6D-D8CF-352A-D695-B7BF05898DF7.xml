@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D75B1D6D-D8CF-352A-D695-B7BF05898DF7" name="CZESCI_UZYTE">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>1DC1181B-F714-807F-9616-A2BFB410C7A8</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CZESCI_ID_CZESCI" id="E97EF5F0-E4AE-C53C-C8D9-472FB32C1E2B">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>B6193830-9F76-CF89-2810-56AEF3434C25</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99DCB939-3EDF-AA77-34E5-9EC7CD74F0C5" referredColumn="FCF9A85A-5DF9-4E70-3861-35B0EB96163A"/>
+</associations>
+</Column>
+<Column name="NAPRAWA_ID_NAPRAWY" id="C89BBF7E-C41E-594C-A90B-5229141474AA">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>0098B065-27BA-7739-C98A-19834E8DA7AF</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEAC279B-3B64-0CB1-8F38-9B07392A7D23" referredColumn="92E3530B-E924-1E23-5C40-8F65E40E9E61"/>
+</associations>
+</Column>
+<Column name="Ilosc" id="83BA560A-5E54-34B5-7725-FA9E7588CF61">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>D4755418-D226-DF89-6771-9D7214A61C42</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAPRAWA_PESEL" id="973C1E84-2640-74D8-0795-D51C161A33AF">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>C685E9DD-F667-905B-66A6-E13F2352867D</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEAC279B-3B64-0CB1-8F38-9B07392A7D23" referredColumn="F8DB875A-96AB-AB96-0FF5-1921A35D3BD9"/>
+</associations>
+</Column>
+<Column name="NAPRAWA_VIM" id="703FB306-C742-14E4-4996-C32A69B7C293">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7890B62E-2B53-D527-46A0-7FD2D197E842</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEAC279B-3B64-0CB1-8F38-9B07392A7D23" referredColumn="E82E5DCD-8392-1299-AA04-D11B5A603898"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D68B96AE-30E5-87A3-8DDF-181B1131F8A7" name="CZESCI_UZYTE_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>2B932ED2-FAD4-62C4-21DC-047287E2D103</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97EF5F0-E4AE-C53C-C8D9-472FB32C1E2B"/>
+<colUsage columnID="C89BBF7E-C41E-594C-A90B-5229141474AA"/>
+<colUsage columnID="973C1E84-2640-74D8-0795-D51C161A33AF"/>
+<colUsage columnID="703FB306-C742-14E4-4996-C32A69B7C293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1CFBBDD-B23A-BF69-E339-3C3A2FE2AEBF" name="CZESCI_UZYTE_CZESCI_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>F27DE733-E713-6304-AE77-ED5CEE67C0A2</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E97EF5F0-E4AE-C53C-C8D9-472FB32C1E2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E481C67-14F0-7715-2970-544733B9047D" name="CZESCI_UZYTE_NAPRAWA_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7C9A9B3B-C136-AA4F-5DDC-EB395B4C0634</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C89BBF7E-C41E-594C-A90B-5229141474AA"/>
+<colUsage columnID="973C1E84-2640-74D8-0795-D51C161A33AF"/>
+<colUsage columnID="703FB306-C742-14E4-4996-C32A69B7C293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

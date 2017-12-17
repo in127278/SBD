@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD7619F4-F1A2-34E5-2299-712944654B74" name="Wiersz_zamówienia">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>5C11650A-271A-7357-B2F2-33220B96D4D4</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZAMOWIENIE_CZESCI_ID_ZAMOWIENIA" id="8C7EE763-43F8-2D93-36F9-1833E7165F98">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>7E501C12-D1E4-05C3-B769-39D8C3F0C087</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32CE7F7E-66E9-0DFF-5873-C3CD266933FB" referredColumn="6AD7382E-DFD6-6A78-1E64-4A186C3A341D"/>
+</associations>
+</Column>
+<Column name="CZESCI_ID_CZESCI" id="4EF2DBCA-319A-2015-E793-99B6BF1B818F">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>B43EA11C-F0A4-F6D1-74A5-1208B254A204</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C35AD88-110D-BB24-1F61-11E33EA26CBB" referredColumn="FCF9A85A-5DF9-4E70-3861-35B0EB96163A"/>
+</associations>
+</Column>
+<Column name="ILE" id="EFED4C35-5BAF-EA6E-C441-7FE4E08855A3">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>AB114044-CD05-D499-6A06-C8215ADE60D8</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMOWIENIE_CZESCI_NAZWA_HURTOWNII" id="252D7952-9ABB-B872-A1DB-D153DD7F3FC3">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>3E297B81-1AB2-17EE-79D3-CAD092310B4C</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32CE7F7E-66E9-0DFF-5873-C3CD266933FB" referredColumn="918AB6CD-C1E4-915C-1B62-2C3D3535F62C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="081749BC-AA99-E23F-B4CC-594FA7C38A47" name="Wiersz_zamówienia_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>169BB467-D657-E61D-B2BF-C968B8EF0A9F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C7EE763-43F8-2D93-36F9-1833E7165F98"/>
+<colUsage columnID="252D7952-9ABB-B872-A1DB-D153DD7F3FC3"/>
+<colUsage columnID="4EF2DBCA-319A-2015-E793-99B6BF1B818F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="029562C8-612F-CCD9-2BDC-141FA8D8D093" name="Wiersz_zamówienia_ZAMOWIENIE_CZESCI_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>1DE69D31-1B3C-3F5A-4DA8-4A952C038F5F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C7EE763-43F8-2D93-36F9-1833E7165F98"/>
+<colUsage columnID="252D7952-9ABB-B872-A1DB-D153DD7F3FC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C99075-393B-6A18-FC31-2364CDBB4551" name="Wiersz_zamówienia_CZESCI_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>76C5969D-C15C-C0C0-428F-940D68683B34</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EF2DBCA-319A-2015-E793-99B6BF1B818F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

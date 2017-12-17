@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C11650A-271A-7357-B2F2-33220B96D4D4" name="Wiersz zamówienia">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-19 10:13:16 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ZAMOWIENIA" id="7E501C12-D1E4-05C3-B769-39D8C3F0C087">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-19 10:14:56 UTC</createdTime>
+<generatorID>1DE69D31-1B3C-3F5A-4DA8-4A952C038F5F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>7D01EA0D-B71E-E2D9-F5A8-05CBDE8D9FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CZESCI" id="B43EA11C-F0A4-F6D1-74A5-1208B254A204">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-19 10:15:41 UTC</createdTime>
+<generatorID>76C5969D-C15C-C0C0-428F-940D68683B34</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>89C27535-E652-FAA2-D487-8DF84FD58863</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ILE" id="AB114044-CD05-D499-6A06-C8215ADE60D8">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-11-19 19:02:06 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA_HURTOWNII" id="3E297B81-1AB2-17EE-79D3-CAD092310B4C">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-17 11:30:24 UTC</createdTime>
+<generatorID>1DE69D31-1B3C-3F5A-4DA8-4A952C038F5F</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>7A1DB166-E55B-1667-D46B-071DB496F7C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="169BB467-D657-E61D-B2BF-C968B8EF0A9F" name="Wiersz zamówienia PK">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-19 10:13:48 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E501C12-D1E4-05C3-B769-39D8C3F0C087</attributeRef>
+<attributeRef>B43EA11C-F0A4-F6D1-74A5-1208B254A204</attributeRef>
+<attributeRef>3E297B81-1AB2-17EE-79D3-CAD092310B4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

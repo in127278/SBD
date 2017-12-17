@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58046D40-0A20-4E01-DF5A-47AD998EA79F" name="UMOWA">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-15 11:16:50 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_UMOWY" id="AB242F9C-7337-05F8-FF23-BB0788241C3F">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 12:52:03 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA" id="706ACF50-7501-ED1A-C325-0FF79F63163B">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 12:52:14 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="6FE7E48C-95A3-B235-4608-1FD4AA341822">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-07 13:08:55 UTC</createdTime>
+<generatorID>63C3A03F-92FD-9003-11B9-85811B31F690</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>02989D7B-7328-0D72-8C54-A18BF3C1E30B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena" id="34841D19-6957-6BF6-93E8-245516290704">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-07 14:32:13 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIM" id="6B63750F-EB47-C65C-4026-55A0CBF07AC2">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-17 11:27:03 UTC</createdTime>
+<generatorID>23DF7889-6ADA-4ADA-15FB-E3E37CEF7554</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>B926B749-216A-C672-F34E-14C021FD8A41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41B4AE9A-4B51-6EBC-889F-B4591726BADA" name="Umowa PK">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-18 12:44:30 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB242F9C-7337-05F8-FF23-BB0788241C3F</attributeRef>
+<attributeRef>6B63750F-EB47-C65C-4026-55A0CBF07AC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

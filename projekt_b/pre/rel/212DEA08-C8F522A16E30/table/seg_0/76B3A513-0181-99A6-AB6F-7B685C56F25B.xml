@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B3A513-0181-99A6-AB6F-7B685C56F25B" name="MYCIE_POJAZDU">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>2B663537-2EC2-CFCD-79AB-BAFF0AE7AA7C</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATA" id="FE667EBA-1D96-21B2-FB29-28E80B5C38AE">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>C4E7A3B1-4560-EA61-0384-08A5F7ED7700</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOWNIK_PESEL" id="E5224E08-CD9B-2559-9ECB-1B1B8936152E">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>2F6670C8-0B53-930E-3A31-1F1641BF9BF4</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="215D2C93-E4CB-95B0-8309-30D1B6310F1F" referredColumn="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A"/>
+</associations>
+</Column>
+<Column name="POJAZD_VIM" id="E2918DF5-5F73-21F1-2C9A-C0282770E2E9">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>8E3C6BB9-087F-EAC5-FA3A-DB7149585076</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9A5A207-81FF-DAC4-251E-40486E13DA34" referredColumn="80905964-0017-9C82-6EBF-4CD5B3A121E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16E76BB8-1CB3-3866-610E-73BC9E3E9B0D" name="MYCIE_POJAZDU_PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>FD1C1265-0BC9-D50B-A10C-4D6CB6ABA3C0</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2918DF5-5F73-21F1-2C9A-C0282770E2E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87F796C9-DBAF-EAB2-6D4F-67F3990C351D" name="MYCIE_POJAZDU_POJAZD_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>24BA9C89-98CA-CE9B-F247-1C1AB22BF050</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2918DF5-5F73-21F1-2C9A-C0282770E2E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B778543-EC75-B270-D227-ACDE1C733ECF" name="MYCIE_POJAZDU_PRACOWNIK_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>9AE94FBB-F9B2-E751-0F70-F1C8D749EC70</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5224E08-CD9B-2559-9ECB-1B1B8936152E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

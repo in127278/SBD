@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48AA1C43-9CE7-4647-3F5D-1135BAF4D2FA" containerWithKeyObject="CA82196F-9B08-411F-00AF-1F9C9598951D" localFKIndex="FA01116C-C5B4-F2D3-FC59-E1966B548787" name="UMOWA_POJAZD_FK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-17 11:43:27 UTC</createdTime>
+<generatorID>23DF7889-6ADA-4ADA-15FB-E3E37CEF7554</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<referredTableLongName>POJAZD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EF04451-77C0-B45D-1D47-D2C84962CDD6</referredTableID>
+<keyObject>C3B437EF-5D5A-286F-4926-394436A960F2</keyObject>
+<referredKeyID>C3B437EF-5D5A-286F-4926-394436A960F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VIM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

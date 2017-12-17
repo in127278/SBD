@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DC1181B-F714-807F-9616-A2BFB410C7A8" name="CZESCI_UZYTE">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-11-19 19:32:38 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CZESCI" id="B6193830-9F76-CF89-2810-56AEF3434C25">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-11-19 19:32:59 UTC</createdTime>
+<generatorID>F27DE733-E713-6304-AE77-ED5CEE67C0A2</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>89C27535-E652-FAA2-D487-8DF84FD58863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_NAPRAWY" id="0098B065-27BA-7739-C98A-19834E8DA7AF">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-11-19 19:33:04 UTC</createdTime>
+<generatorID>7C9A9B3B-C136-AA4F-5DDC-EB395B4C0634</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>0F7901AD-F33B-DB95-80A5-ED23AF82B65C</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ilosc" id="D4755418-D226-DF89-6771-9D7214A61C42">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-20 12:55:36 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="C685E9DD-F667-905B-66A6-E13F2352867D">
+<createdBy>Miko</createdBy>
+<createdTime>2017-11-20 13:48:50 UTC</createdTime>
+<generatorID>7C9A9B3B-C136-AA4F-5DDC-EB395B4C0634</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>F3D90040-8917-36B3-B060-0E59DE6B8814</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VIM" id="7890B62E-2B53-D527-46A0-7FD2D197E842">
+<createdBy>Miko</createdBy>
+<createdTime>2017-12-17 11:27:03 UTC</createdTime>
+<generatorID>7C9A9B3B-C136-AA4F-5DDC-EB395B4C0634</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<referedAttribute>FAB3569A-BB5D-4E61-06EC-F441D38633F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B932ED2-FAD4-62C4-21DC-047287E2D103" name="CZESCI_UZYTE PK">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-11-19 19:32:59 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6193830-9F76-CF89-2810-56AEF3434C25</attributeRef>
+<attributeRef>0098B065-27BA-7739-C98A-19834E8DA7AF</attributeRef>
+<attributeRef>C685E9DD-F667-905B-66A6-E13F2352867D</attributeRef>
+<attributeRef>7890B62E-2B53-D527-46A0-7FD2D197E842</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
