@@ -14,5 +14,6 @@
 <refColNames>PESEL</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
+<discriminatorValue>P</discriminatorValue>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

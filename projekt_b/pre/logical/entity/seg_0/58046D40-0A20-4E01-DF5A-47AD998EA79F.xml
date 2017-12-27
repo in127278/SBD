@@ -34,7 +34,9 @@
 <engineerTo>
 <item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PESEL" id="6FE7E48C-95A3-B235-4608-1FD4AA341822">
@@ -52,7 +54,7 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cena" id="34841D19-6957-6BF6-93E8-245516290704">
+<Attribute name="CENA" id="34841D19-6957-6BF6-93E8-245516290704">
 <createdBy>Miko</createdBy>
 <createdTime>2017-12-07 14:32:13 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
@@ -77,7 +79,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -85,8 +87,9 @@
 <createdBy>Miko</createdBy>
 <createdTime>2017-11-18 12:44:30 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

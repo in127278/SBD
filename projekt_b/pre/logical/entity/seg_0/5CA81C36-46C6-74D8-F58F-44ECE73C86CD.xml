@@ -54,14 +54,28 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="TYP" id="CCBB6D42-0089-BDAC-4B1B-36F8372CC36C">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-27 12:44:24 UTC</createdTime>
+<ownerDesignName>pre</ownerDesignName>
+<engineerTo>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F2357156-A8AB-EA94-3ACC-565842E7CCB8" name="Osoba PK">
 <createdBy>Miko</createdBy>
 <createdTime>2017-11-18 10:08:34 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

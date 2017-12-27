@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE5D343D-7E63-F4B6-B8F9-F4109D7A66BC" name="ZAMOWIENIE_CZESCI">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE5D343D-7E63-F4B6-B8F9-F4109D7A66BC" name="ZAMOWIENIE">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>517C83E3-C62C-024B-A176-745C00707E02</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_ZAMOWIENIA" id="6AD7382E-DFD6-6A78-1E64-4A186C3A341D">
+<Column name="ID_ZAM" id="6AD7382E-DFD6-6A78-1E64-4A186C3A341D">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>7D01EA0D-B71E-E2D9-F5A8-05CBDE8D9FE5</generatorID>
@@ -51,14 +51,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="B1352A03-C628-82F1-F19E-2EC1DA8AA3C8" referredColumn="E878A6C6-FBAB-CF1D-05B9-E3F7173C0D4A"/>
 </associations>
 </Column>
-<Column name="HURTOWNIA_NAZWA_HURTOWNII" id="918AB6CD-C1E4-915C-1B62-2C3D3535F62C">
+<Column name="HRT_NAZWA" id="918AB6CD-C1E4-915C-1B62-2C3D3535F62C">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>7A1DB166-E55B-1667-D46B-071DB496F7C2</generatorID>
@@ -67,7 +67,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -76,7 +76,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F1DBAD68-4D48-0E12-E5EF-05C1E6F8FA6D" name="ZAMOWIENIE_CZESCI_PK">
+<ind_PK_UK id="F1DBAD68-4D48-0E12-E5EF-05C1E6F8FA6D" name="ZAMOWIENIE_PK">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>48442A9F-F68E-5046-093B-0CA4B2BFAE4B</generatorID>
@@ -89,7 +89,7 @@
 <colUsage columnID="918AB6CD-C1E4-915C-1B62-2C3D3535F62C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9BC2D159-ED10-9E80-C8B4-A35CC59AC125" name="ZAMOWIENIE_CZESCI_PRACOWNIK_FK">
+<ind_PK_UK id="9BC2D159-ED10-9E80-C8B4-A35CC59AC125" name="ZAMOWIENIE_PRACOWNIK_FK">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>C96CF0A0-F585-9A09-3CDE-6D98062A759F</generatorID>
@@ -100,7 +100,7 @@
 <colUsage columnID="C2B795E7-FA09-EBEC-95A2-26E260F355AC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D495109E-0B87-A255-F2AA-BC8F6EC2B904" name="ZAMOWIENIE_CZESCI_HURTOWNIA_FK">
+<ind_PK_UK id="D495109E-0B87-A255-F2AA-BC8F6EC2B904" name="ZAMOWIENIE_HRT_FK">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>0E1D0954-7268-9ABD-9C8B-C6B96CF9DF27</generatorID>

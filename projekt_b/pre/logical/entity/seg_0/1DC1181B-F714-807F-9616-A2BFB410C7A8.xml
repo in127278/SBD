@@ -39,11 +39,12 @@
 <item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
 </engineerTo>
 <referedAttribute>0F7901AD-F33B-DB95-80A5-ED23AF82B65C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ilosc" id="D4755418-D226-DF89-6771-9D7214A61C42">
+<Attribute name="ILOSC" id="D4755418-D226-DF89-6771-9D7214A61C42">
 <createdBy>Miko</createdBy>
 <createdTime>2017-11-20 12:55:36 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
@@ -83,7 +84,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -91,8 +92,9 @@
 <createdBy>Maciek</createdBy>
 <createdTime>2017-11-19 19:32:59 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

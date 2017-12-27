@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C35AD88-110D-BB24-1F61-11E33EA26CBB" containerWithKeyObject="AD7619F4-F1A2-34E5-2299-712944654B74" localFKIndex="68C99075-393B-6A18-FC31-2364CDBB4551" name="Wiersz_zamówienia_CZESCI_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C35AD88-110D-BB24-1F61-11E33EA26CBB" containerWithKeyObject="AD7619F4-F1A2-34E5-2299-712944654B74" localFKIndex="68C99075-393B-6A18-FC31-2364CDBB4551" name="WIERSZ_ZAM_CZESCI_FK">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>76C5969D-C15C-C0C0-428F-940D68683B34</generatorID>

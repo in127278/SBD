@@ -44,6 +44,18 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TYP" id="DC748E5B-5AB4-A2BC-C1E9-A39DE15BE625">
+<createdBy>Maciek</createdBy>
+<createdTime>2017-12-27 12:45:14 UTC</createdTime>
+<generatorID>CCBB6D42-0089-BDAC-4B1B-36F8372CC36C</generatorID>
+<ownerDesignName>pre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4BA5A19A-7325-5A63-D86B-8B2DB60C0BBF" name="OSOBA_PK">

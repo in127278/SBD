@@ -24,7 +24,9 @@
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>706ACF50-7501-ED1A-C325-0FF79F63163B</generatorID>
 <ownerDesignName>pre</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -37,14 +39,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="98BB81E2-3165-F650-DBC8-29A56C26FF68" referredColumn="022B7EDC-A291-D9A8-292D-780EC74F695F"/>
 </associations>
 </Column>
-<Column name="Cena" id="A46A0EE0-2AB6-7104-3758-C0CC83E63609">
+<Column name="CENA" id="A46A0EE0-2AB6-7104-3758-C0CC83E63609">
 <createdBy>Maciek</createdBy>
 <createdTime>2017-12-17 11:43:27 UTC</createdTime>
 <generatorID>34841D19-6957-6BF6-93E8-245516290704</generatorID>
@@ -64,7 +66,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

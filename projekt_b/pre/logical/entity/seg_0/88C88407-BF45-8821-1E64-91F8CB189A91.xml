@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88C88407-BF45-8821-1E64-91F8CB189A91" name="HURTOWNIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88C88407-BF45-8821-1E64-91F8CB189A91" name="HRT">
 <createdBy>Miko</createdBy>
 <createdTime>2017-11-18 15:16:53 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NAZWA_HURTOWNII" id="37C47B5A-65C6-2142-3386-411069158E98">
+<Attribute name="NAZWA" id="37C47B5A-65C6-2142-3386-411069158E98">
 <createdBy>Miko</createdBy>
 <createdTime>2017-11-18 15:17:04 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
@@ -34,8 +34,9 @@
 <createdBy>Miko</createdBy>
 <createdTime>2017-11-18 15:17:11 UTC</createdTime>
 <ownerDesignName>pre</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="true"/>
+<item key="212DEA08-FD2F-2985-C537-C8F522A16E30" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
